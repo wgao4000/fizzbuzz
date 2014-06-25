@@ -1,0 +1,39 @@
+h1{ 
+	margin:0 auto;
+	display:block;
+	width:10em;
+	margin-top:2%;
+	margin-bottom:5%;
+}
+body{
+	background-color:lightblue;
+}
+.values,.instruction{
+    margin-top:4%;
+    margin-bottom:4%;
+    margin-left:10%;
+    margin-right:10%;
+    font-size:24px;
+}
+.instruction{
+   background-color:coral;
+   border: 5px solid grey;
+}
+.values{
+    background-color:lightcoral;
+}
+.submitbutton{
+	margin-top:5%;
+	margin-bottom:5%;
+    float:right;
+    margin-right:5%;
+    font-weight:bold;
+    background-color:yellow;
+    font-size:18px;
+    -webkit-border-radius: 2px; 
+    -moz-border-radius: 2px; 
+    border-radius: 2px; 
+}
+*{
+	outline:0px solid black;
+}
