@@ -1,0 +1,54 @@
+h1{ 
+	margin:0 auto;
+	display:block;
+	width:10em;
+	margin-top:2%;
+	margin-bottom:5%;
+}
+body{
+	background-color:lightblue;
+}
+.Getnumber{
+    margin:0 auto;
+    display:block;
+    width:30em;
+    margin-top:5%;
+}
+label{
+    font-size:25px;
+}
+#inputnumber{
+    width:100px;
+    height:25px;
+    margin:0 10px 0 20px;
+}
+.values,.instruction{
+    margin-top:4%;
+    margin-bottom:4%;
+    margin-left:10%;
+    margin-right:10%;
+    font-size:24px;
+}
+.instruction{
+   background-color:coral;
+   border: 5px solid grey;
+}
+.values{
+    background-color:lightcoral;
+}
+.submitbutton{
+    width:20px;
+    height:20px;
+	margin-top:5%;
+	margin-bottom:5%;
+    padding:5px;
+    font-weight:bold;
+    background-color:yellow;
+    font-size:14px;
+    -webkit-border-radius: 2px; 
+    -moz-border-radius: 2px; 
+    border-radius: 2px; 
+}
+*{
+	outline:0px solid black;
+}
