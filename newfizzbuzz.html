@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="main.css">
-<script src="http://code.jquery.com/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/newmain.css">
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 </head>
 <body>
-<h1>It's a Fizzbuzz Show</h1>
-<span class="instruction">Here is a fizzbuzz show, please enter an interger that is bigger than 0, then press the "run" button to see the result.</span>
-<br>
-<div class="Getnumber">
-<label for="inputnumber">Please enter your value here: </label>
-<input type="text" id="inputnumber" placeholder="100">
-<button="submit" class="submitbutton"  onclick="getnu(document.getElementById('inputnumber').value)">Run</button>
-</div>
-<div class="values" id="allvalues">
-</div>
-<script src="js/newfizzbuzz.js"></script>
+	<h1>It's a Fizzbuzz Show</h1>
+	<p class="instruction">Here is a fizzbuzz show, please enter an interger that is bigger than 0, then press the "run" button to see the result.</p>
+	<br>
+	<div class="Getnumber">
+		<label for="inputnumber">Please enter your value here: </label>
+		<span class="nextline">
+			<input type="text" id="inputnumber" placeholder="100">
+			<button="submit" class="submitbutton" id="submit1" onclick="getnu(document.getElementById('inputnumber').value)">Run</button>
+		</span>
+	</div>
+	<div class="values" id="allvalues">
+	</div>
+	<script src="js/newfizzbuzz.js"></script>
 </body>
 </html>

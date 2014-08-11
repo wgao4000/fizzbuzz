@@ -1,3 +1,4 @@
+$(".newline").append('<button="submit" class="submitbutton" id="submit2">Restart</button>');
 function getnu(usernumber){
 if(!isNaN(usernumber)){
   var inputnumber=+usernumber;
@@ -5,6 +6,10 @@ if(!isNaN(usernumber)){
     document.getElementById('allvalues').innerHTML="";
     var rev=fizzb(inputnumber);
     document.getElementById('allvalues').innerHTML+=rev;
+    $(".submitbutton").replaceWith('<button="submit" class="submitbutton" id="submit2">Restart</button>');
+    $("#submit2").on('click',function(){
+       location.href="http://wgao4000.github.io/fizzbuzz/newfizzbuzz.html";
+    });
   }
   else
     alert("Please input a positive integer!");
