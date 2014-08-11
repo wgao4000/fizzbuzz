@@ -11,8 +11,9 @@ body{
 .Getnumber{
     margin:0 auto;
     display:block;
-    width:30em;
+    width:50%;
     margin-top:5%;
+    text-align:center;
 }
 label{
     font-size:25px;
@@ -22,7 +23,7 @@ label{
     height:25px;
     margin:0 10px 0 20px;
 }
-.values,.instruction{
+.values{
     margin-top:4%;
     margin-bottom:4%;
     margin-left:10%;
@@ -32,6 +33,12 @@ label{
 .instruction{
    background-color:coral;
    border: 5px solid grey;
+   padding:0.5em;
+   font-size:24px;
+   margin:2em auto;
+   display:block;
+   width:60%;
+   text-align:justify;
 }
 .values{
     background-color:lightcoral;
@@ -39,8 +46,8 @@ label{
 .submitbutton{
     width:20px;
     height:20px;
-	margin-top:5%;
-	margin-bottom:5%;
+    margin-top:5%;
+    margin-bottom:5%;
     padding:5px;
     font-weight:bold;
     background-color:yellow;
@@ -51,4 +58,15 @@ label{
 }
 *{
 	outline:0px solid black;
+}
+
+@media screen and (max-width:800px){
+    label{
+        float:left;
+    }
+    .nextline{
+        clear:both;
+        padding-top:10px;
+        display:block;
+    }
 }
